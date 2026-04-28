@@ -19,11 +19,18 @@
 - Чистый и читаемый код с осмысленными именами
 
 
-## 🚀 Сборка и запуск
+## 🚀 Запуск
+### Требования
+- Компилятор **GCC** (g++) или **Clang** с поддержкой C++17
+- Linux, macOS или Windows (с MinGW/WSL)
+
+### Клонирование и запуск
 ```bash
-cd cpp-labs/lr2/build
-cmake .. && make
-./lr2
+git clone https://github.com/wwabisabi/university-labs-2026.git
+cd cpp-labs/lr2
+g++ -std=c++17 -Wall -Wextra -Wpedantic -o lab2 main.cpp
+./lab2    # Linux/macOS
+lab2.exe  # Windows
 ```
 
 ## 📊 Список задач для меню:
