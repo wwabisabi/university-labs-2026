@@ -10,10 +10,17 @@
 -  После задачи: повторить/вернуться в меню
 
 ## 🚀 Сборка и запуск
+### Требования
+
+- Компилятор **GCC** (g++) или **Clang** с поддержкой C++17
+- Операционная система **Linux** (программа использует POSIX-вызовы: `termios`, `select`, `pthread`)
+- Установленная библиотека `pthread`
+  
 ```bash
-cd cpp-labs/lr1/build
-cmake .. && make
-./lr1
+git clone https://github.com/wwabisabi/university-labs-2026.git
+cd cpp-labs/lr1
+g++ -std=c++17 -Wall -Wextra -Wpedantic -pthread -o main main.cpp
+./main
 ```
 
 ## 📊 Список задач для меню:
