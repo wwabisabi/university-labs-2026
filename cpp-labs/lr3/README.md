@@ -21,9 +21,11 @@
 
 ## 🚀 Сборка и запуск
 ```bash
-cd cpp-labs/lr3/build
-cmake .. && make
-./lr3
+git clone https://github.com/wwabisabi/university-labs-2026.git
+cd university-labs-2026/cpp-labs/lr3/program_code
+g++ -std=c++17 -Wall -Wextra -Wpedantic -Werror -o lab3 main.cpp Menu.cpp Task1_Carsharing.cpp Task2_OnlineCourses.cpp Task3_Metro.cpp Task4_VendingMachine.cpp Task5_Airport.cpp
+./lab3    # Linux/macOS
+lab3.exe  # Windows
 ```
 
 ## 📊 Список задач для меню:
