@@ -1,0 +1,14 @@
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.o
+*.out
+*.a
+*.so
+*.db
+*.sqlite
+*.log
+.vscode/
+.idea/
